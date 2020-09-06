@@ -13,7 +13,7 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: auto fit-content(250px);
+    grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
     max-width: 1170px;
     margin: 50px auto;
     border: 5px solid #1de9b6;
