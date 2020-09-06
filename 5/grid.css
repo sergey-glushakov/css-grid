@@ -13,8 +13,7 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px 30px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     max-width: 1170px;
     margin: 50px auto;
     border: 5px solid #1de9b6;
